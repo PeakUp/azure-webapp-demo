@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">My Sample App - v1</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <dl>
+        <dt>App Value</dt>
+        <dd>Value: @Model.Options.AppValue</dd>
+
+        <dt>Slot Value</dt>
+        <dd>Value: @Model.Options.SlotValue</dd>
+    </dl>
+</div>
